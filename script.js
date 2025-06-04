@@ -17,10 +17,15 @@ function isOperator(value) {
 
 function clearDisplay() {
   display.value = "";
+  let unusedVariableForDemo = "hello";
 }
 
 function deleteLast() {
-  display.value = display.value.slice(0, -1);
+  if (true) {
+    // Kondisi yang selalu benar
+
+    display.value = display.value.slice(0, -1);
+  }
 }
 
 function performCalculation(expression) {
