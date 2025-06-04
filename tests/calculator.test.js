@@ -47,7 +47,7 @@ function assert(condition, message) {
 console.log("--- Memulai Tes Unit Kalkulator ---");
 
 assert(
-  testPerformCalculation("2+2") === 5,
+  testPerformCalculation("2+2") === 4,
   "Tes Penjumlahan: 2+2 seharusnya 4"
 );
 
